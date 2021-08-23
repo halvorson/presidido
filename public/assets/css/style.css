@@ -689,8 +689,12 @@ section {
   float: left;
 }
 
+.counts .count-box i.bx-male {
+  margin-left: -10px;
+}
+
 .counts .count-box i.bx-male + i.bx-male {
-  margin-left: -25px
+  margin-left: -25px;
 }
 
 .counts .count-box i.bx {
