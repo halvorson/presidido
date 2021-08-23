@@ -500,16 +500,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# Weekend
 --------------------------------------------------------------*/
-.about {
+.weekend {
   background: url("../img/about-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
 }
 
-.about::before {
+.weekend::before {
   content: '';
   position: absolute;
   left: 0;
@@ -520,27 +520,27 @@ section {
   z-index: 9;
 }
 
-.about .container {
+.weekend .container {
   position: relative;
   z-index: 10;
 }
 
-.about .content {
+.weekend .content {
   padding: 30px 30px 30px 0;
 }
 
-.about .content h3 {
+.weekend .content h3 {
   font-weight: 700;
   font-size: 34px;
   color: #2f4d5a;
   margin-bottom: 30px;
 }
 
-.about .content p {
+.weekend .content p {
   margin-bottom: 30px;
 }
 
-.about .content .about-btn {
+.weekend .content .weekend-btn {
   display: inline-block;
   background: #67b0d1;
   padding: 6px 44px 8px 30px;
@@ -550,55 +550,55 @@ section {
   position: relative;
 }
 
-.about .content .about-btn i {
+.weekend .content .weekend-btn i {
   font-size: 18px;
   position: absolute;
   right: 18px;
   top: 9px;
 }
 
-.about .content .about-btn:hover {
+.weekend .content .weekend-btn:hover {
   background: #7bbad7;
 }
 
-.about .icon-boxes .icon-box {
+.weekend .icon-boxes .icon-box {
   margin-top: 30px;
 }
 
-.about .icon-boxes .icon-box i {
+.weekend .icon-boxes .icon-box i {
   font-size: 40px;
   color: #67b0d1;
 }
 
-.about .icon-boxes .icon-box i.bx-female {
+.weekend .icon-boxes .icon-box i.bx-female {
   margin-left: -20px
 }
 
-.about .icon-boxes .icon-box h3 {
+.weekend .icon-boxes .icon-box h3 {
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
-.about .icon-boxes .icon-box h4 {
+.weekend .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
-.about .icon-boxes .icon-box p {
+.weekend .icon-boxes .icon-box p {
   font-size: 15px;
   color: #848484;
   margin-bottom: 0px;
 }
 
 @media (max-width: 1200px) {
-  .about .content {
+  .weekend .content {
     padding-right: 0;
   }
 }
 
 @media (max-width: 768px) {
-  .about {
+  .weekend {
     text-align: center;
   }
 }
@@ -760,13 +760,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# photos
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.photos .photos-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.photos #photos-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -776,7 +776,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.photos #photos-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -789,22 +789,22 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.photos #photos-flters li:hover, .photos #photos-flters li.filter-active {
   color: #67b0d1;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.photos #photos-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.photos .photos-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.photos .photos-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -817,7 +817,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.photos .photos-wrap .photos-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -829,7 +829,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.photos .photos-wrap .photos-links a {
   color: #fff;
   font-size: 28px;
   text-align: center;
@@ -838,15 +838,15 @@ section {
   width: 100%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.photos .photos-wrap .photos-links a:hover {
   background: rgba(103, 176, 209, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.photos .photos-wrap .photos-links a + a {
   border-left: 1px solid #8ec4dd;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.photos .photos-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -854,28 +854,28 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.photos .photos-wrap:hover .photos-links {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# photos Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.photos-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.photos-details .photos-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.photos-details .photos-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.photos-details .photos-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -883,16 +883,16 @@ section {
   border: 1px solid #67b0d1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.photos-details .photos-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #67b0d1;
 }
 
-.portfolio-details .portfolio-info {
+.photos-details .photos-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(47, 77, 90, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.photos-details .photos-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -900,27 +900,27 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.photos-details .photos-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.photos-details .photos-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.photos-details .photos-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.photos-details .photos-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.photos-details .photos-description p {
   padding: 0;
 }
 
@@ -1088,6 +1088,73 @@ section {
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 110px;
+  }
+}
+
+/*--------------------------------------------------------------
+# ceremony
+--------------------------------------------------------------*/
+.ceremony {
+  padding-bottom: 80px;
+}
+
+.ceremony .info-box {
+  color: #444444;
+  background: #fff;
+  text-align: left;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 20px 30px 20px;
+}
+
+.ceremony .info-box .centered-row {
+  text-align: center;
+}
+
+.ceremony .info-box i {
+  font-size: 32px;
+  color: #67b0d1;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #f0f7fa;
+}
+
+.ceremony .info-box h5 {
+  color: #777777;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+
+.ceremony .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #777777;
+}
+
+.ceremony .info-box p + div i {
+  margin-top: 10px;
+}
+
+.ceremony .ceremony-spacer {
+  height: 2rem;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
