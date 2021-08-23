@@ -687,7 +687,15 @@ section {
   font-size: 44px;
   color: #67b0d1;
   float: left;
-  line-height: 0;
+}
+
+
+.counts .count-box i.bx-male + i.bx-male {
+  margin-left: -25px
+}
+
+.counts .count-box i.bx {
+  height: 1rem; 
 }
 
 .counts .count-box span {
