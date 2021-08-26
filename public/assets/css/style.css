@@ -359,12 +359,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #f8f9fa;
   text-shadow: -1px 0 2px #2f4d5a;
 }
 
 #hero h2 {
-  color: #fff;
+  color: #f8f9fa;
   margin-bottom: 50px;
   line-height: 1;
   font-weight: 700;
@@ -372,6 +372,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   text-shadow: -1px 0 2px #2f4d5a;
+}
+
+#hero h2 a {
+  color: #f8f9fa;
+  text-decoration: underline;
 }
 
 #hero .btn-get-started {
@@ -450,6 +455,7 @@ section {
 }
 
 .section-title p {
+  color: #848484;
   margin-bottom: 0;
 }
 
