@@ -1508,3 +1508,31 @@ section {
 .modal-dialog-centered {
   min-height: calc(100% - 4rem);
 }
+
+/*--------------------------------------------------------------
+# Lightbox
+--------------------------------------------------------------*/
+
+.glightbox-clean .gdesc-inner {
+  padding: 0px 20px;
+}
+
+
+.glightbox-clean .gslide-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 0px;
+}
+
+.glightbox-mobile .glightbox-container .gslide-description {
+  bottom: 0px;
+}
+
+@media (min-width: 769px) {
+  .glightbox-clean .gdesc-inner {
+    background-color: rgba(0,0,0,.92);
+    padding: 22px 20px;
+  }
+}
